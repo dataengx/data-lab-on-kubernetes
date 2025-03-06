@@ -12,7 +12,7 @@ def task_2():
 # Definindo o DAG
 dag = DAG(
     'simple_dag_with_dependencies',
-    description='DAG com dependências entre 2 tarefas',
+    description='DAG com dependências entre 2 tarefas ',
     schedule_interval=None,
     start_date=datetime(2025, 3, 6),
     catchup=False,
